@@ -1,0 +1,41 @@
+PODS:
+  - MediaEditor (1.1.0):
+    - TOCropViewController (~> 2.5.2)
+  - Spring (1.0.6)
+  - SVProgressHUD (2.2.5)
+  - TOCropViewController (2.5.3)
+  - VisualEffectView (4.0.2)
+
+DEPENDENCIES:
+  - MediaEditor
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+  - SVProgressHUD
+  - TOCropViewController
+  - VisualEffectView
+
+SPEC REPOS:
+  trunk:
+    - MediaEditor
+    - SVProgressHUD
+    - TOCropViewController
+    - VisualEffectView
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 50d92a5b9e08848387ae95bf44c6ad20834f7083
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  MediaEditor: a1838320ae55bf92af0fd938c6767c68265a9351
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TOCropViewController: 20a14b6a7a098308bf369e7c8d700dc983a974e6
+  VisualEffectView: 8c05bdc77490d84aabfa9fd17b1ffd6476da0e2c
+
+PODFILE CHECKSUM: 1760e2169c3397968fad6e2832383c83c7b6d2e7
+
+COCOAPODS: 1.9.3

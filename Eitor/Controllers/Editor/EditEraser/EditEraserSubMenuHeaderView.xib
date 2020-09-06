@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Muli-Bold.ttf">
+            <string>Muli-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EditEraserSubMenuHeaderView" id="6fD-QU-Oi5" customClass="EditEraserSubMenuHeaderView" customModule="StickerPlus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5v-S0-wXv">
+                    <rect key="frame" x="20" y="4" width="296" height="42"/>
+                    <fontDescription key="fontDescription" name="Muli-Bold" family="Muli" pointSize="16"/>
+                    <color key="textColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="u5v-S0-wXv" firstAttribute="leading" secondItem="6fD-QU-Oi5" secondAttribute="leading" constant="20" id="DjQ-fN-9uw"/>
+                <constraint firstAttribute="trailing" secondItem="u5v-S0-wXv" secondAttribute="trailing" constant="4" id="Q6Z-UO-WXF"/>
+                <constraint firstItem="0VB-ic-GKd" firstAttribute="bottom" secondItem="u5v-S0-wXv" secondAttribute="bottom" constant="4" id="i5O-zr-gEE"/>
+                <constraint firstItem="u5v-S0-wXv" firstAttribute="top" secondItem="6fD-QU-Oi5" secondAttribute="top" constant="4" id="nat-Lo-jhJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="0VB-ic-GKd"/>
+            <connections>
+                <outlet property="editSubMenuHeaderLabel" destination="u5v-S0-wXv" id="5fY-Tb-tdw"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="200"/>
+        </collectionReusableView>
+    </objects>
+</document>

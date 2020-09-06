@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Muli-Bold.ttf">
+            <string>Muli-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EraserSizeCell" id="gTV-IL-0wX" customClass="EraserSizeCell" customModule="Eitor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="298" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="298" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WHK-jr-eYD">
+                        <rect key="frame" x="0.0" y="0.0" width="298" height="50"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="8" translatesAutoresizingMaskIntoConstraints="NO" id="TDx-Ev-OXL">
+                                <rect key="frame" x="101.5" y="0.0" width="198.5" height="51"/>
+                                <color key="tintColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="gTV-IL-0wX" eventType="valueChanged" id="0vP-Uk-bQ9"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silgi Boyutu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbu-Nk-KCB">
+                                <rect key="frame" x="4" y="0.0" width="79.5" height="50"/>
+                                <fontDescription key="fontDescription" name="Muli-Bold" family="Muli" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TDx-Ev-OXL" secondAttribute="trailing" id="7t9-Ao-eKj"/>
+                            <constraint firstAttribute="bottom" secondItem="gbu-Nk-KCB" secondAttribute="bottom" id="DgE-Z9-0cH"/>
+                            <constraint firstItem="TDx-Ev-OXL" firstAttribute="leading" secondItem="gbu-Nk-KCB" secondAttribute="trailing" constant="20" id="UJt-xy-bTx"/>
+                            <constraint firstAttribute="bottom" secondItem="TDx-Ev-OXL" secondAttribute="bottom" id="WX3-zw-QjO"/>
+                            <constraint firstItem="gbu-Nk-KCB" firstAttribute="leading" secondItem="WHK-jr-eYD" secondAttribute="leading" constant="4" id="fHr-qw-H4Q"/>
+                            <constraint firstItem="TDx-Ev-OXL" firstAttribute="centerY" secondItem="WHK-jr-eYD" secondAttribute="centerY" id="k8j-LQ-hP0"/>
+                            <constraint firstItem="gbu-Nk-KCB" firstAttribute="centerY" secondItem="WHK-jr-eYD" secondAttribute="centerY" id="l3r-9L-yR1"/>
+                            <constraint firstItem="gbu-Nk-KCB" firstAttribute="top" secondItem="WHK-jr-eYD" secondAttribute="top" id="xKt-Xq-1Q1"/>
+                            <constraint firstItem="TDx-Ev-OXL" firstAttribute="top" secondItem="WHK-jr-eYD" secondAttribute="top" id="ySa-2r-Vws"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="WHK-jr-eYD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7sa-8k-lcl"/>
+                <constraint firstItem="WHK-jr-eYD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="KS4-gS-CCV"/>
+                <constraint firstAttribute="bottom" secondItem="WHK-jr-eYD" secondAttribute="bottom" id="YZq-I4-T5N"/>
+                <constraint firstAttribute="trailing" secondItem="WHK-jr-eYD" secondAttribute="trailing" id="Yd6-93-JsP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="298" height="50"/>
+            <connections>
+                <outlet property="eraserSizeLabel" destination="gbu-Nk-KCB" id="QOl-h6-x93"/>
+                <outlet property="eraserSizeSlider" destination="TDx-Ev-OXL" id="LkU-tr-wmQ"/>
+            </connections>
+            <point key="canvasLocation" x="317.39130434782612" y="110.49107142857143"/>
+        </collectionViewCell>
+    </objects>
+</document>

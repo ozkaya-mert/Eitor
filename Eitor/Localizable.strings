@@ -1,0 +1,227 @@
+/* 
+  Localizable.strings
+  Eitor
+
+  Created by Mert Ozkaya on 21.08.2020.
+  Copyright © 2020 Eitor. All rights reserved.
+*/
+
+"mostPopular" = "En Popüler";
+"free" = "Ücretsiz";
+"premium" = "Premium";
+"new" = "Yeni";
+
+//Edit Page
+
+"photograph" = "Fotoğraf";
+"eraser" = "Silgiler";
+"editText" = "Yazı";
+"cartoonEffect" = "Karton Efekt";
+
+"profile" = "Profil";
+
+"newPackage" = "Yeni Paket";
+
+"create" = "Oluştur";
+"favourites" = "Favoriler";
+"downloaded" = "İndirilenler";
+"purchased" = "Satın Alınanlar";
+
+"showPackage" = "Paketleri İncele";
+"emptyPackegeMessage" = "Henüz satın alınan paketiniz bulunmamaktadır.";
+
+"createSticker" = "Yeni Sticker";
+"packageTitle" = "Paket İsmi";
+"desc" = "Açıklama";
+
+"saveToWP" = "Whatsapp’a Kaydet";
+
+"delete" = "Sil";
+"edit" = "Düzenle";
+"cancel" = "iptal";
+"reset" = "Sıfırla";
+
+"deletePacketMessage" = "Oluşturulan paketi sil";
+
+
+"addFav" = "Favorilere Ekle";
+"addedToFav" = "Eklendi";
+
+"sort" = "Sırala";
+"sortDesc" = "Kategori seçeneklerine göre sırala";
+
+"alphabeticSort" = "Alfabetik sıra";
+"favSort" = "Favori";
+"mixedSort" = "Karışık";
+"newSort" = "Yeni";
+
+
+"addFavAndSave" = "Favorilere Ekle ve Kaydet";
+"addToFavourite" = "Favorilere Ekle";
+"addedToFavourite" = "Favorilere Eklendi";
+"share" = "Paylaş";
+
+"eraseBackground" = "";
+
+"magicEraser" = "Sihirli Silgi";
+"quickEraser" = "Sihirli Silgi";
+
+
+"textPatterns" = "Hazır metin şablonları";
+"fontType" = "Yazı tipi";
+
+"camera" = "Kamera";
+"gallery" = "Galeri";
+"selectSticker" = "Sticker seç";
+
+"eraserSize" = "Silgi Boyutu";
+"stickerOptions" = "Sticker Seçenekleri";
+"save" = "Kaydet";
+"settings" = "Ayarlar";
+
+"privacyAggrement" = "Gizlilik Sözleşmesi";
+"eula" = "EULA";
+"feedback" = "Geri Bildirim";
+"evaluate" = "Değerlendir";
+"shareApp" = "Uygulamayı Paylaş";
+
+
+"filter" = "Filtre";
+
+"sticker" = "Sticker";
+"package" = "Paket";
+"all" = "Hepsi";
+
+"searchSticker" = "Sticker Ara";
+
+//Premium Pop-up
+"subscribe" = "Abone Ol";
+"premiumVersion" = "Sınırsız Kullanın";
+"premiumPopupTitle" = "::premiumVersion:: ile en sevdiğin çıkartmaları dilediğin gibi topla ve indir.";
+
+"threeDayDemo" = "3 GÜN ÜCRETSİZ KULLANIN";
+"afterThen" = "Sonra ";
+"afterThenPrice" = "$8.99";
+"anytimeCancel" = "Eğlencenin tadını çıkar";
+"showOtherOption" = "Diğer seçenekler";
+"popupBottomText" = "Sınırsız Sticker Oluşturun. 3 Gün Ücretsiz Kullan. Will automatically extend to a weekly";
+
+
+"allow" = "İzin ver";
+"requestPermissionTitle" = "Permission Required";
+"requestPermissionInfo"  = "You need to give permission to use all the features of Sticker Plus";
+"galleryPermissionInfo"  = "Before you can select photos from the gallery, you must give permission to access your gallery.";
+"galleryEmptyInfo"       = "Can not view because there are no photos in the gallery. You can use it as your profile photo by taking a photo immediately!";
+"cameraNotAllowedInfo"   = "To use the camera, you must give permission to access your camera.";
+
+
+"myPhotos" = "Fotoğraflarım";
+"galleryDesc" = "En güzel fotoğrafını seç ve sticker yap";
+
+
+"saveToWap" = "Whatsapp'a Kaydet";
+"saveToiMessage" = "iMessage'ye Kaydet";
+"saveToGallery" = "Galeriye Kaydet";
+
+
+"packageNameError" = "Paket ismi olmayan paketleri paylaşamazsınız";
+"warning" = "UYARI";
+"close" = "Kapat";
+
+
+
+// Premium2 page texts
+"threeDayTrial" = "3 GÜN ÜCRETSİZ KULLANIN";
+"weeklyPlan" = "Haftalık";
+"monthlyPlan" = "Aylık";
+"weekly" = "Haftalık";
+"monthly" = "Aylık";
+"yearly" = "Yıllık";
+"continue" = "DEVAM ET";
+"afterThat" = "sonra";
+
+"sliderHome1_1" = "Sticker";
+"sliderHome1_2" = "Oluştur";
+
+"sliderHome2_1" = "Sınırsız";
+"sliderHome2_2" = "İndir";
+
+"sliderHome3_1" = "Herkesle";
+"sliderHome3_2" = "Paylaş";
+
+
+// Slider Texts
+"sliderTextTitle_1" = "Arka Plan Temizleyin";
+"sliderTextDesc_1" = "Fotoğrafın arka planını silin ve stickerlarınızı kendiniz tasarlayın!";
+
+"sliderTextTitle_2" = "Sınızsızca Stickera Ulaşın";
+"sliderTextDesc_2" = "Kilidi açın ve tüm stickerların keyfini çıkarın!";
+
+"sliderTextTitle_3" = "Herkesle Paylaşın";
+"sliderTextDesc_3" = "Oluşturduğunuz sitickerları arkadaşlarınızla paylaşın ve yeteneklerinizi gösterin!";
+
+"premium2SliderTextTitle" = "Eğlenerek Mesajlaş";
+"premium2SliderDesc" = "Bibirinden farklı stickerlar oluşturun ve arkadaşlarınızla paylaşın!";
+
+// ****************************** //
+
+"buyPackage" = "Paketi Kaydet $4.99";
+
+"firstIntroTitle" = "Doğrudan Mesajlaşın";
+"firstIntroDesc" = "Bibirinden farklı stickerlar oluşturun ve mesajlaşın!";
+
+"secondIntroTitle" = "Profil Fotoğrafı Olarak Kullanın";
+"secondIntroDesc" = "Whatsapp, iMessage & Telegram";
+
+// ************** Premium Subscription Bottom View  **************** //
+ 
+"subsTopText" = "3 GÜN ÜCRETSİZ DENEYİN $8.99/haftalık Eğlencenin tadını çıkar";
+"startSubs" = "DEVAM ET";
+"restore" = "Geri Yükle";
+"privacyPolicy" = "Gizlilik Politikası";
+
+
+"magicEraserAlert" = "iOS sürümünüz 12'den yukarı olmalıdır!";
+
+
+// sonradan eklendi
+
+"provideAccessToAll" = "Tüm özelliklere erişim sağla";
+"monthlySubs" = "Aylık Abonelik";
+"contract"  = "Yenilenen faturalama, istediğin zaman iptal et. Abonelik satın almaya karar verdiğinde ödeme iTunes hesabın üzerinden gerçekleşecektir. Satın aldığın  aboneliğin süresi dolmadan önceki 24 saat içinde aboneliğin yenilenecektir. Otomatik yenilemeyi satın alma işlemi gerçekleştikten sonra istediğin zaman iTunes hesap ayarlarından kapatabilirsin. Daha fazla bilgi için EULA ve Gizlilik Politikamızı inceleyebilirsin.";
+
+
+"weeklySubs" = "Haftalık Abonelik";
+"yearlySubs" = "Yıllık Abonelik";
+"notFoundMail" = "Telefonunuza kayıtlı e-mail adresi bulunmamaktadır";
+
+"resultNotFound" = "Sonuç bulunamadı";
+"checkInternet" = "Lütfen internet bağlantısını kontrol ediniz";
+"shareLibraryWarning" = "Paket ismi olmayan paketleri galeriye kaydedemezsiniz";
+
+
+//----------------
+"imessageSuccess" = "Paket iMessage'a başarıyla kaydedildi";
+"imessageError" = "iMessage'a kaydederken bir hata oluştu!";
+"imessageRemovedPackageSuccess" = "Kayıtlı paketler iMessage'dan silindi";
+"librarySuccess" = "Paket galeriye başarıyla kaydedildi";
+"libraryError" = "Galeriye kaydederken bir hata oluştu!";
+
+"wpPhotoCountError" = "Sticker sayısı 3 ile 30 arasında olmalıdır";
+"wpPhotoSizeError" = "Bazı stickerların boyutu 850KB'dan fazla";
+
+"done" = "Tamam";
+"completed" = "Bitti";
+"adsErrorMessage" = "Reklamı sonuna kadar izlemeden paylaşım yapamazsınız";
+
+"crop" = "Kırp";
+"manualEraser" = "Elle Sil";
+
+"addText" = "Yazı Ekle";
+"draw" = "Çiz";
+
+"quadraticCrop" = "Karesel Kırp";
+"looseCrop" = "Serbest Kırp";
+
+
+"mainTitle" = "Fotoğrafını düzenlemek için seçim yapmalısın.";

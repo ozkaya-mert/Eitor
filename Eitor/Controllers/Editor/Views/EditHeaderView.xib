@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="EditHeaderView" id="U6b-Vx-4bR" customClass="EditHeaderView" customModule="StickerPlus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="400"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ccG-6k-6ve">
+                    <rect key="frame" x="0.0" y="0.0" width="321" height="400"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MIY-zC-9fa">
+                            <rect key="frame" x="145.5" y="350" width="30" height="30"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trash" translatesAutoresizingMaskIntoConstraints="NO" id="rtf-JT-xEx">
+                                    <rect key="frame" x="4" y="4" width="22" height="22"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="AAE-Qi-dtU"/>
+                                <constraint firstAttribute="bottom" secondItem="rtf-JT-xEx" secondAttribute="bottom" constant="4" id="IW0-tL-v0g"/>
+                                <constraint firstItem="rtf-JT-xEx" firstAttribute="leading" secondItem="MIY-zC-9fa" secondAttribute="leading" constant="4" id="L6o-yE-NtJ"/>
+                                <constraint firstAttribute="trailing" secondItem="rtf-JT-xEx" secondAttribute="trailing" constant="4" id="MAI-gp-DLV"/>
+                                <constraint firstItem="rtf-JT-xEx" firstAttribute="top" secondItem="MIY-zC-9fa" secondAttribute="top" constant="4" id="rSP-gg-Ki4"/>
+                                <constraint firstAttribute="width" constant="30" id="shS-5v-a1A"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yp3-CZ-771">
+                            <rect key="frame" x="20" y="20" width="281" height="310"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="MIY-zC-9fa" secondAttribute="bottom" constant="20" id="5tj-ig-HJ5"/>
+                        <constraint firstItem="Yp3-CZ-771" firstAttribute="leading" secondItem="ccG-6k-6ve" secondAttribute="leading" constant="20" id="BF4-G5-Aqx"/>
+                        <constraint firstAttribute="trailing" secondItem="Yp3-CZ-771" secondAttribute="trailing" constant="20" id="HcJ-S2-M0V"/>
+                        <constraint firstItem="MIY-zC-9fa" firstAttribute="top" secondItem="Yp3-CZ-771" secondAttribute="bottom" constant="20" id="Lpn-5n-MnK"/>
+                        <constraint firstItem="Yp3-CZ-771" firstAttribute="top" secondItem="ccG-6k-6ve" secondAttribute="top" constant="20" id="P1s-rl-4se"/>
+                        <constraint firstItem="MIY-zC-9fa" firstAttribute="centerX" secondItem="ccG-6k-6ve" secondAttribute="centerX" id="nnA-iS-wzT"/>
+                        <constraint firstAttribute="height" constant="400" id="p5Q-Qw-H9i"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="ccG-6k-6ve" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="KzK-Xl-TmU"/>
+                <constraint firstItem="ccG-6k-6ve" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="LKo-lg-G1G"/>
+                <constraint firstAttribute="trailing" secondItem="ccG-6k-6ve" secondAttribute="trailing" id="kMO-yn-4GC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <connections>
+                <outlet property="backgroundView" destination="ccG-6k-6ve" id="YGO-kp-v2I"/>
+                <outlet property="imageView" destination="Yp3-CZ-771" id="lPr-87-mdI"/>
+                <outlet property="trashView" destination="MIY-zC-9fa" id="Ddd-ZL-fAJ"/>
+            </connections>
+            <point key="canvasLocation" x="138.40579710144928" y="281.25"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="trash" width="18" height="18"/>
+    </resources>
+</document>

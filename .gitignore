@@ -1,0 +1,17 @@
+xcuserdata/
+
+*.xcscmblueprint
+*.xccheckout
+
+build/
+DerivedData/
+
+*.pbxuser
+
+.build/
+
+Pods/
+
+*.xcworkspace
+
+**/.DS_Store

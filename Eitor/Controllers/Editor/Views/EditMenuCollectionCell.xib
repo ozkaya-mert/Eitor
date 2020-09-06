@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="EditMenuCollectionCell" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="EditMenuCollectionCell" translatesAutoresizingMaskIntoConstraints="NO" id="gTV-IL-0wX" customClass="EditMenuCollectionCell" customModule="StickerPlus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="224" height="102"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="224" height="102"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="fR9-17-zrl">
+                        <rect key="frame" x="0.0" y="0.0" width="224" height="102"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="84n-9y-V1e">
+                            <size key="itemSize" width="128" height="102"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fR9-17-zrl" secondAttribute="trailing" id="AIY-Ha-VCz"/>
+                <constraint firstAttribute="bottom" secondItem="fR9-17-zrl" secondAttribute="bottom" id="krA-Aq-ySw"/>
+                <constraint firstItem="fR9-17-zrl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yBj-Ng-u6L"/>
+                <constraint firstItem="fR9-17-zrl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="yL2-tB-1wJ"/>
+            </constraints>
+            <size key="customSize" width="224" height="51"/>
+            <connections>
+                <outlet property="collectionView" destination="fR9-17-zrl" id="UhJ-hU-2sf"/>
+            </connections>
+            <point key="canvasLocation" x="263.768115942029" y="153.01339285714286"/>
+        </collectionViewCell>
+    </objects>
+</document>
